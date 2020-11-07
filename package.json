@@ -1,0 +1,16 @@
+{
+  "name": "tweetappbackend",
+  "version": "1.0.0",
+  "description": "backend for tweetapp",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ajo George",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "twitter-api-client": "^1.2.0"
+  }
+}
