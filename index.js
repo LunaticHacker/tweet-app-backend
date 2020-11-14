@@ -14,7 +14,9 @@ const twitterClient = new TwitterClient({
 });
 
 async function getHome() {
-  const data = await twitterClient.tweets.statusesHomeTimeline();
+  const data = await twitterClient.tweets.statusesHomeTimeline({
+    tweet_mode: "extended",
+  });
   return data;
 }
 app.get("/home", async (req, res) => {
